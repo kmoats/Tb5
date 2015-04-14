@@ -1,0 +1,13 @@
+Cuts for 400, 600, 800, 1000 GeV
+
+Float_t lepton_highpt_min = 50, 80, 150
+Float_t lepton_lowpt_min = 0, 0, 0
+Float_t pt_miss_min = 80, 80, 80
+Float_t m_ll_min = 120, 160, 240
+
+Float_t jet_forward_y_min = 3, 3, 3, 3
+Float_t jet_forward_y_max = 5, 5, 5, 5
+Float_t jet_forward_pt_min = 30, 30, 30, 30
+Float_t jet_forward_E_min = 500, 500, 500, 500
+
+Float_t Ht_min = 450, 550, 800

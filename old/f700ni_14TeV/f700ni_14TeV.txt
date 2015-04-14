@@ -1,0 +1,49 @@
+//********** Selection Cuts **********
+Float_t lepton_y_max = 2.5;
+Float_t lepton_pt_min = 10;
+Float_t jet_y_max = 5;
+Float_t jet_pt_min = 10;
+
+dR_jj > 0.4
+dR_jl > 0.4
+dR_ll > 0.4
+
+//********** Leptonic Cuts **********	
+Float_t lepton_highpt_min = 80;
+Float_t pt_miss_min = 80;
+Float_t m_ll_min = 110;
+
+
+//********** Jet Cuts **********
+Float_t jet_forward_y_min = 3;
+Float_t jet_forward_y_max = 5;
+Float_t jet_forward_pt_min = 30;
+Float_t jet_forward_E_min = 700;
+
+Float_t jet_hard_pt_min = 80;
+
+
+
+//********** Ht Cut **********
+Float_t Ht_min = 0;
+
+
+
+Signal (f = 700 GeV, ni -> M = 465.3 GeV)
+
+Cross Section (fb): 
+Selection Cuts:     3.23153 (67.4791 %)
++ Leptonic Cuts:    1.10911 (34.3214 %)
++ Jet Cuts:         0.500671 (45.1419 %)
++ Ht Cut:           0.500671 (100 %)
+
+
+
+ttbar + n jets (n=0,1,2) (charge misidentification probability = 0.006)
+
+Cross Section (fb): 
+Selection Cuts:     35.3173
++ Leptonic Cuts:    7.09023 (20.0758 %)
++ Jet Cuts:         0.477961 (7.84042 %)
++ Ht Cut:           0.477961 (100 %)
+

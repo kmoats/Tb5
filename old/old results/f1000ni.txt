@@ -1,0 +1,46 @@
+Lepton Cuts
+Float_t lepton1_y_max = 2.5;
+Float_t lepton2_y_max = 2.5;
+Float_t lepton1_pt_min = 120; // pt cut on hardest lepton
+Float_t lepton2_pt_min = 10; // pt cut on second hardest lepton
+
+Jet Cuts (on most forward jet)
+Float_t jet_y_min = 2.5;
+Float_t jet_y_max = 5;
+Float_t jet_pt_min = 20;
+Float_t jet_E_min = 300;
+
+Ht Cut
+Float_t Ht_min = 600;
+
+
+Signal - Cross Section (fb): 
+No Cuts:            0.218895
++ Leptonic Cuts:    0.137364 (62.7534 %)
++ Jet Cuts:         0.0591671 (43.0731 %)
++ Ht Cut:           0.0476461 (80.5281 %)
+
+t#bar{t}W^{+}j Bkgd. - Cross Section (fb): 
+No Cuts:            3.54121
++ Leptonic Cuts:    0.627614 (17.7232 %)
++ Jet Cuts:         0.0320128 (5.10071 %)
++ Ht Cut:           0.0153916 (48.0796 %)
+
+pp_w+w+w-jbb~ Bkgd. - Cross Section (fb): 
+No Cuts:            5.87912
++ Leptonic Cuts:    0.980302 (16.6743 %)
++ Jet Cuts:         0.0370282 (3.77722 %)
++ Ht Cut:           0.00991908 (26.7879 %)
+
+pp_tw+w-jb~ - Cross Section (fb): 
+No Cuts:            4.91951
++ Leptonic Cuts:    0.857213 (17.4248 %)
++ Jet Cuts:         0.0348604 (4.06672 %)
++ Ht Cut:           0.0108714 (31.1854 %)
+
+
+Signal (fb): 		0.0476461
+Total Background (fb): 	0.0361821
+
+Luminosity for S/sqrt(B) > 5 and N > 10:  398.4 fb-1
+

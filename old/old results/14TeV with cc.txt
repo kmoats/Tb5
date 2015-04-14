@@ -1,0 +1,85 @@
+//********** Selection Cuts **********
+Float_t lepton_y_max = 2.5;
+Float_t lepton_pt_min = 10;
+Float_t jet_y_max = 5;
+Float_t jet_pt_min = 10;
+
+dR_jj > 0.4
+dR_jl > 0.4
+dR_ll > 0.4
+
+//********** Leptonic Cuts **********	
+Float_t lepton_highpt_min = 50;
+Float_t pt_miss_min = 60;
+Float_t m_ll_min = 110;
+
+//********** Jet Cuts **********
+Float_t jet_forward_y_min = 3;
+Float_t jet_forward_y_max = 5;
+Float_t jet_forward_pt_min = 30;
+Float_t jet_forward_E_min = 700;
+
+//********** Ht Cut **********
+Float_t Ht_min = 550;
+
+Signal (f = 700 GeV, ni -> M = 465.3 GeV)
+
+Signal - Cross Section (fb): 
++ Selection Cuts:   4.99413
++ Leptonic Cuts:    2.51911 (50.4415 %)
++ Jet Cuts:         1.14514 (45.4579 %)
++ Ht Cut:           1.00256 (87.549 %)
+
+t#bar{t} + j - Cross Section (fb): 
++ Selection Cuts:   104.177
++ Leptonic Cuts:    27.0359 (25.9518 %)
++ Jet Cuts:         2.33868 (8.65028 %)
++ Ht Cut:           1.09894 (46.9897 %)
+
+W^{+}W^{-} + j - Cross Section (fb): 
++ Selection Cuts:   3.48999
++ Leptonic Cuts:    0.923473 (26.4606 %)
++ Jet Cuts:         0.0344982 (3.7357 %)
++ Ht Cut:           0.0111528 (32.3287 %)
+
+W^{#pm}Z + j - Cross Section (fb): 
++ Selection Cuts:   34.4162
++ Leptonic Cuts:    5.22852 (15.192 %)
++ Jet Cuts:         0.379851 (7.26497 %)
++ Ht Cut:           0.035627 (9.37922 %)
+
+t#bar{t}W^{#pm} + j - Cross Section (fb): 
++ Selection Cuts:   9.7991
++ Leptonic Cuts:    3.13194 (31.9615 %)
++ Jet Cuts:         0.151126 (4.82532 %)
++ Ht Cut:           0.115753 (76.594 %)
+
+W^{#pm}W^{#pm} + j - Cross Section (fb): 
++ Selection Cuts:   16.2586
++ Leptonic Cuts:    4.83538 (29.7404 %)
++ Jet Cuts:         0.21756 (4.49933 %)
++ Ht Cut:           0.112687 (51.796 %)
+
+W^{#pm}W^{#pm}W^{#mp} + j - Cross Section (fb): 
+No Cuts:            3.38456
++ Selection Cuts:   2.59004 (76.5252 %)
++ Leptonic Cuts:    0.739796 (28.5631 %)
++ Jet Cuts:         0.0241454 (3.2638 %)
++ Ht Cut:           0.014503 (60.0653 %)
+
+t#bar{t}W^{+}W^{-} + j - Cross Section (fb): 
++ Selection Cuts:   0.0690273
++ Leptonic Cuts:    0.0268329 (38.8728 %)
++ Jet Cuts:         0.0016024 (5.97177 %)
++ Ht Cut:           0.00154507 (96.4226 %)
+
+W^{#pm} + j - Cross Section (fb): (fake rate = 10^{-4})
++ Selection Cuts:   122.202
++ Leptonic Cuts:    16.2339 (13.2844 %)
++ Jet Cuts:         0.861055 (5.30406 %)
++ Ht Cut:           0.13451 (15.6216 %)
+
+Signal: 	1.00256 fb
+Background:	1.52471 fb
+
+L for 5 sigma = 25 B/S^2 = 37.9233 fb^-1

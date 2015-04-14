@@ -1,0 +1,76 @@
+//********** Selection Cuts **********
+Float_t lepton_y_max = 2.5;
+Float_t lepton_pt_min = 10;
+Float_t jet_y_max = 5;
+Float_t jet_pt_min = 10;
+
+dR_jj > 0.4
+dR_jl > 0.4
+dR_ll > 0.4
+
+//********** Leptonic Cuts **********	
+Float_t lepton_highpt_min = 50;
+Float_t pt_miss_min = 50;
+Float_t m_ll_min = 110;
+
+//********** Jet Cuts **********
+Float_t jet_forward_y_min = 3;
+Float_t jet_forward_y_max = 5;
+Float_t jet_forward_pt_min = 30;
+Float_t jet_forward_E_min = 700;
+
+//********** Ht Cut **********
+Float_t Ht_min = 550;
+
+Signal (f = 700 GeV, ni -> M = 465.3 GeV)
+
+Signal - Cross Section (fb): 
+Selection Cuts:     3.31857
++ Leptonic Cuts:    1.83975 (55.4379 %)
++ Jet Cuts:         0.892561 (48.5154 %)
++ Ht Cut:           0.763794 (85.5734 %)
+
+t#bar{t} + j - Cross Section (fb): 
+Selection Cuts:    36.1101
++ Leptonic Cuts:   13.7967 (38.2074 %)
++ Jet Cuts:         1.21199 (8.78459 %)
++ Ht Cut:           0.608644 (50.2187 %)
+
+W^{+}W^{-} + j - Cross Section (fb): 
+Selection Cuts:     2.14271
++ Leptonic Cuts:    0.799315 (37.3039 %)
++ Jet Cuts:         0.0303826 (3.80108 %)
++ Ht Cut:           0.0074565 (24.542 %)
+
+WZ + j - Cross Section (fb): 
+Selection Cuts:    20.6899
++ Leptonic Cuts:    3.66143 (17.6967 %)
++ Jet Cuts:         0.36189 (9.88385 %)
++ Ht Cut:           0.035627 (9.8447 %)
+
+t#bar{t}W + j - Cross Section (fb): 
+Selection Cuts:     9.7991
++ Leptonic Cuts:    3.49453 (35.6617 %)
++ Jet Cuts:         0.174168 (4.98403 %)
++ Ht Cut:           0.125241 (71.9082 %)
+
+W^{+}W^{+} + j - Cross Section (fb): 
+Selection Cuts:    11.2993
++ Leptonic Cuts:    3.89768 (34.4949 %)
++ Jet Cuts:         0.196782 (5.04871 %)
++ Ht Cut:           0.096079 (48.825 %)
+
+W^{+}W^{+}W^{-} + j - Cross Section (fb): 
+Selection Cuts:     1.659
++ Leptonic Cuts:    0.540409 (32.5743 %)
++ Jet Cuts:         0.0176348 (3.26324 %)
++ Ht Cut:           0.00916113 (51.949 %)
+
+t#bar{t}W^{+}W^{-} + j - Cross Section (fb): 
+Selection Cuts:     0.0690273
++ Leptonic Cuts:    0.0293435 (42.51 %)
++ Jet Cuts:         0.00180134 (6.13882 %)
++ Ht Cut:           0.00165056 (91.6296 %)
+
+Signal: 	0.763794
+Background:	0.883859

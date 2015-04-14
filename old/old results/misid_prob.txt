@@ -1,0 +1,47 @@
+if(lepton_misid.id == 11) // if misidentified lepton is an electron
+{
+	if(lepton_misid.pt >= 0 && lepton_misid.pt < 100)
+	{
+		eff_chargemisid = 0.0008;
+	}
+	if(lepton_misid.pt >= 100 && lepton_misid.pt < 300)
+	{
+		eff_chargemisid = 0.006;
+	}
+	if(lepton_misid.pt >= 300 && lepton_misid.pt < 500)
+	{
+		eff_chargemisid = 0.02;
+	}
+	if(lepton_misid.pt >= 500 && lepton_misid.pt < 1000)
+	{
+		eff_chargemisid = 0.06;
+	}
+	if(lepton_misid.pt >= 1000)
+	{
+		eff_chargemisid = 0.2;
+	}
+}
+					
+if(lepton_misid.id == 13) // if misidentified lepton is a muon
+{
+	if(lepton_misid.pt >= 0 && lepton_misid.pt < 100)
+	{
+		eff_chargemisid = 0.0004;
+	}
+	if(lepton_misid.pt >= 100 && lepton_misid.pt < 300)
+	{
+		eff_chargemisid = 0.002;
+	}
+	if(lepton_misid.pt >= 300 && lepton_misid.pt < 500)
+	{
+		eff_chargemisid = 0.01;
+	}
+	if(lepton_misid.pt >= 500 && lepton_misid.pt < 1000)
+	{
+		eff_chargemisid = 0.05;
+	}
+	if(lepton_misid.pt >= 1000)
+	{
+		eff_chargemisid = 0.2;
+	}
+}
